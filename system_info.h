@@ -9,7 +9,8 @@ std::string getCPU();
 std::string getGPU();
 std::string getDE();
 std::string getWM();
-std::string getUserAndHost();
+std::string getUser();
+std::string getHostname();
 std::string getShell();
 std::string getRAM();
 
