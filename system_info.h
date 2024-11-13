@@ -14,4 +14,4 @@ std::string getHostname();
 std::string getShell();
 std::string getRAM();
 
-#endif // !system_info_h
+#endif // !SYSTEM_INFO_H

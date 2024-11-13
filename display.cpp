@@ -6,7 +6,7 @@
 using namespace std;
 
 void displayMessage() {
-    cout << BLUE << getUser() << endl;
+    cout << BLUE << getUser() << "@" << getHostname() << endl;
     cout << RED << "OS: " << getOS() << endl;
     cout << MAGENTA << "Shell: " << getShell() << endl;
     cout << GREEN << "CPU: " << getCPU() << endl;

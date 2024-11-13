@@ -16,4 +16,4 @@
 void displayMessage();
 std::string removeAllWhitespace(const std::string& str);
 
-#endif // !display_h
+#endif // !DISPLAY_H

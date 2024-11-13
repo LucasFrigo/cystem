@@ -44,6 +44,19 @@ string getCPU() {
     return cpuName;
 }
 
+string getHostname() {
+    string hostname = "";
+    ifstream file("/etc/hostname");
+    string line;
+    
+    if(file.is_open()) {
+        getline(file, line);
+        hostname = line;
+    }
+    file.close();
+
+    return hostname;
+}
 
 string getGPU() {
     string gpuName = "";
@@ -66,11 +79,6 @@ string getUser() {
     userName = user; 
 
     return  userName;
-}
-
-string getHostname() {
-    string hostname = "";
-    return hostname;
 }
 
 string getShell() {
